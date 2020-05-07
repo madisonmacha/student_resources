@@ -1,0 +1,102 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+/*        background-color: red;*/
+    overflow: auto;
+}
+
+
+nav,
+#feature,
+footer {
+font-family: montserrat;
+/*    margin: 1%;*/
+}
+
+#feature {
+    background-color: lightgrey;
+}
+
+header{
+    padding: 15px 0;
+    text-align: center;
+    background-color: #65696e;
+    color: #d1d1d1;
+    font-family: montserrat;
+    
+}
+nav{
+    justify-content: center
+}
+
+nav,
+footer {
+    background-color: #303842;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    
+
+    
+}
+
+footer{
+    font-size: 8px;
+}
+
+.flex_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column1, .column2 {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    background-color: grey;
+}
+
+.column3, .column4{
+    float: left;
+    width: 48%;
+    margin: 1%;
+    background-color: grey;
+}
+
+.column5, .column6{
+    float: left;
+    width: 48%;
+    margin: 1%;
+    background-color: grey;
+}
+
+article,
+#feature {
+    height: 250px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 18px;
+ 
+    
+}
+@media only screen and (max-width:800px) {
+
+    .column1,
+    .column2
+        {
+        width: 98%;
+    }
+
+    .flex_container {
+        display: flex;
+        flex-direction: column;
+    }
